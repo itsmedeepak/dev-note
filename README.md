@@ -273,7 +273,173 @@ Prevents lines within a cell from being broken to fit
 ___
 ## CSS
 
-___
+### BACKGROUND
+
+>background-image
+```html
+
+url
+gradients
+none
+
+```
+>background-position
+```
+top left | top center | top right | center left | center center |
+center right | bottom left | bottom center | bottom right
+x-% y-%
+x-pos y-pos
+```
+>background-size
+```
+length
+%
+auto | cover | contain
+```
+>background-repeat
+```
+background-repeat
+repeat | repeat-x | repeat-y |
+no-repeat
+```
+>background-attachment
+```
+scroll | fixed | local
+```
+>background-origin
+```
+border-box | padding-box | content-box
+```
+>background-clip
+```
+border-box | padding-box | content-box
+```
+>background-color
+```
+color
+transparent
+```
+### BORDER
+>border
+```
+border-width
+border-style
+border-color
+```
+>border-width
+```
+
+thin | medium | thick | length
+```
+>border-style
+```
+none | hidden | dotted |
+dashed | solid | double |
+groove | ridge | inset | outset
+```
+>border-color
+```
+color
+```
+>border-bottom
+```
+border-bottom-width
+border-style
+border-color
+border-left
+border-left-width
+```
+>border-left-style
+```
+border-style
+border-right-color
+border-color
+```
+
+>border-right-width
+```
+thin | medium | thick | length
+```
+>border-top-width
+```
+thin | medium | thick | length
+```
+
+>border-break
+```
+border-width
+border-style
+color
+close
+```
+
+>border-bottom-color
+```
+border-color
+border-bottom-style
+border-style
+border-left-color
+border-color
+```
+>border-left-width
+```
+thin | medium | thick length
+```
+>border-right-style
+```
+border-style
+border-top
+border-top-width
+border-style
+border-color
+
+```
+>border-top-color
+```
+
+border-color
+```
+>border-top-style
+```
+border-style
+```
+>box-shadow
+```
+inset || [ length, length, length, length || <color> ]
+none
+```
+>border-collapse
+```
+collapse | separate
+```
+>border-image
+```
+image
+[ number / % border-width stretch | repeat | round ]
+none
+```
+
+>border-right
+```
+border-right-width
+border-style
+border-color
+```
+>border-radius
+```
+border-radius
+border-top-right-radius
+border-bottom-right-radius
+border-bottom-left-radius
+border-top-left-radius
+border-top-right-radius
+length
+border-bottom-right-radius
+length
+border-bottom-left-radius
+length
+`````````````````````````````````````````````````````````
+__
 ## BOOTSTRAP
 
 ___
